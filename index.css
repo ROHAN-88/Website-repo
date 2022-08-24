@@ -1,0 +1,43 @@
+body{
+    background:rgba(166, 25, 25,10);
+   box-sizing: 3px;
+   padding:0px ;
+   margin: 0px;
+   color: beige;
+}
+#background{
+    height: 100vh;
+    background:url(../Website-repo/Image/Snapchat-1453719467.jpg) ;
+    background-attachment: fixed;
+
+}
+#nav-main{
+display:  flex;
+
+justify-content: space-around;
+align-items: center;
+border: 1px black solid;
+}
+#nav-main>ul>li{
+   display: inline-block;
+   margin: 0.5rem;
+
+
+}
+#nav-bar{
+    color: rgb(238, 228, 228);
+    text-decoration: none;
+}
+#nav-bar::after{
+    width: 0%;
+    height: 2px;
+
+    background-color: rgb(63, 6, 6);
+    content: '';
+    margin: auto;
+  display: block;
+}
+#nav-bar:hover::after{
+        width: 100%;
+        transition: 0.5s;
+}
