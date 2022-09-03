@@ -5,19 +5,28 @@ body{
    margin: 0px;
    color: beige;
 }
-#background{
-    height: 100vh;
-    background:url(../Website-repo/Image/Snapchat-1453719467.jpg) ;
-    background-attachment: fixed;
 
-}
+
+/* this is for nav-bar */
 #nav-main{
 display:  flex;
-
-justify-content: space-around;
+border-radius:0.5rem;
+justify-content: space-between;
 align-items: center;
 border: 1px black solid;
+
+/* this to place nav in fixed position */
+position: fixed;
+top: 0%;
+right: 0%;
+left: 0%;
+background-color: rgb(212, 42, 42);
 }
+
+.title-1{
+    margin-left:2rem ;
+}
+/* this to inline the links */
 #nav-main>ul>li{
    display: inline-block;
    margin: 0.5rem;
@@ -40,4 +49,32 @@ border: 1px black solid;
 #nav-bar:hover::after{
         width: 100%;
         transition: 0.5s;
+}
+/* 
+the avove for the inline links to here it is for 
+decorationg nav-links */
+
+
+
+
+/* the below is for backgound img of university with text  */
+#div1{
+    background:url(../Website-repo/Image/img.jpg) ;
+    min-height:100vh;
+    max-width:100% ;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#title-2{
+ 
+    margin: auto;
+    font-size: 5rem;
+   color: rgb(230, 12, 12);
+
+
+}
+.div2{
+  height: 200vh;
 }
