@@ -59,7 +59,7 @@ decorationg nav-links */
 
 /* the below is for backgound img of university with text  */
 #div1{
-    background:url(../Website-repo/Image/img.jpg) ;
+    background:url(../standard-Website-repo/Image/img.jpg) ;
     min-height:100vh;
     max-width:100% ;
     display: flex;
